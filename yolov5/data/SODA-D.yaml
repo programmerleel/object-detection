@@ -1,0 +1,17 @@
+path: D:\resource\SODA-D # dataset root dir
+train: D:\resource\SODA-D\train.txt # train images (relative to 'path') 118287 images
+val: D:\resource\SODA-D\val.txt # val images (relative to 'path') 5000 images
+test: D:\resource\SODA-D\test.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: person
+  1: rider
+  2: bicycle
+  3: motor
+  4: vehicle
+  5: traffic-sign
+  6: train-light
+  7: truck-camera
+  8: warning-cone
+  9: ignore
